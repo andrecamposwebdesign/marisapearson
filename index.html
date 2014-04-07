@@ -1,0 +1,225 @@
+<!DOCTYPE HTML>
+<html lang="pt-br" ng-app="website">
+<link rel="icon" href="img/favicon.png" />
+<head>
+<title>Marisa Pearson</title>
+<meta property="og:title" content="teixeiraeadvogados.com - Teixeira, Direito do Consumidor, Família, Desaposentação e Sucessões">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://www.teixeiraeadvogados.com/">
+<meta property="og:image" content="http://teixeiraeadvogados.com/img/sprite.png">
+<meta property="og:site_name" content="teixeiraeadvogados.com">
+<meta property="og:description" content="Advogado Teixeira Rio de Janeiro. Direito do consumidor, família, desaposentação e sucessões.">
+<meta name="description" content="Teixeira e Advogados, Rio de Janeiro. Direito do consumidor, família, desaposentação e sucessões.">
+<meta name="keywords" content=" advogados, advogados rio de janeiro, assessoria juridica, consultor juridico, ação indenizatória, processo por danos morais, orientação jurídica, direito de herança">
+<meta name="application-name" content="Teixeiraeadvogados.com">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="keywords" content="teixeiraeadvogados, advogado, advocacia" >
+<!-- CSS -->
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" media="only screen and (max-device-width: 1024px) and (min-device-width: 610px)" href="css/ipad.css" type="text/css" />
+<!-- JS -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="libs/bootstrap/js/bootstrap.min.js"></script>
+<script src="libs/angular/angular.min.js"></script>
+<script type="text/javascript" src="js/website.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+
+<?php include_once("analyticstracking.php") ?>
+</head>
+<body ng-controller="MainCtrl">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="loading">
+    <div class="complete-loader"><img src="img/ajax-loader.gif" /> <div class="logo-loader"><img src="img/logo.png"></div></div>
+</div>
+<!-- HEADER -->
+<div class="row">
+	<div class="header col-lg-12">
+		<div class="container">
+			<div class="row logo-flag">
+				<div class="col-lg-12">
+          <div class="col-md-offset-7">
+					 <a ng-click="setRoute('home')" class="home"><div class="logo"><img src="img/logo.png"></div></a>
+          </div>
+				</div>
+        <div class="col-lg-12">
+          <div class="col-md-offset-7">
+           <a ng-click="setRoute('home')" class="home pull-left"><div class="flag"><img src="img/englishflag.png"></div></a>
+           <a ng-click="setRoute('home')" class="home"><div class="flag"><img src="img/brazilflag.png"></div></a>
+          </div>
+        </div>
+      </div>  
+      <div class="row inside-site">
+
+        <div class="col-lg-6">
+          <div class="">
+           <a ng-click="setRoute('home')" class="home"><div class="logo"><img src="img/logo.png"></div></a>
+          </div>
+        
+
+
+          <div class="menu">
+            <ul>
+              <li><a ng-click="setRoute('home')" class="homemenu">Home</a></li>
+              <li><a ng-click="setRoute('services')"  class="servicesmenu">Professional Experience</a></li>
+              <li><a ng-click="setRoute('cv')"  class="cvmenu">Academic Education</a></li>
+              <li><a ng-click="setRoute('modeling')"  class="modelingmenu">Photos</a></li>
+              <li><a ng-click="setRoute('midia')"  class="midiamenu">Videos</a></li>
+              <li><a ng-click="setRoute('contact')"  class="contactmenu">Contact</a></li>
+            </ul>
+          </div>
+
+
+          <div class="col-lg-11">
+            <div class="row maincontent">
+              <div class="col-lg-12">
+                <div class="bs-example bs-example-tabs">
+                  <ul id="myTab" class="nav nav-tabs">
+                    <li class="active"><a href="#sobre" data-toggle="tab">Marisa</a></li>
+                    <li class=""><a href="#apsicologa" data-toggle="tab">Main Works</a></li>
+                    <li class=""><a href="#especializacoes" data-toggle="tab">Especializações</a></li>
+                  </ul>
+                  <div id="myTabContent" class="tab-content">
+                    <div class="tab-pane fade active in" id="sobre">
+                       <strong>MARISA PEARSON</strong> é profissional de dança, canto e performance. É pesquisadora de Dança Contemporânea,  de  Danças Orientais e de Teatro Musical, possuindo formação em Jazz, Street Dance, Tap Dance, Belly Dance, Classical Indian and Bollywood, Latin and Dança de Salão, Musical Theatre and Vocals. Nascida na Austrália e radicada no Brasil, atuou em diversas companhias em países da Europa, nos Estados Unidos e na Índia. Atualmente, está cursando a formação superior de Licenciatura em Dança na Faculdade Angel Vianna. 
+                    </div>
+                    <div class="tab-pane fade" id="apsicologa">
+                       Na Inglaterra, entre suas experiências profissionais destaca-se o trabalho como bailarina e interprete no espetáculo “Anil Desai’s Indian Summer” na temporada do Teatro Brickhouse, em Londres (2010), sua atuação como bailarina em “Belly Bliss All Stars” (2010), sua participação no espetáculo “Moulin Rouge”, produzido por Y.D. Promotions, Londres, 2008, 2009 e sua participação como bailarina nas apresentações “East Meets West” e “India Now”, realizados na Inglaterra e na Suíça, em 2007. Como coreógrafa, atuou junto ao “Vibes Dance”, Inglaterra, 2010. Na Austrália, participou como atriz e bailarina de importantes produções realizadas pela Companhia Grayboy Australia, como “Pianoman”, “G’day G’day”, “Tribute”, Australia, Fiji, Nova Caledonia, 2005 – 2006 e do espetáculo “Spider Man”, produzido pelo Promotechnics, onde atuou como atriz e bailarina como a personagem Mary-Jane. O espetáculo foi apresentado em Sydney, Canberra, e fez Turné pela costa leste da Australia em 2003. Além deste trabalho nas artes cênicas, tem realizado também trabalhos para a televisão, como: o Comanda IPOD, Inglaterra, 2007; Commercial Airbnb, Brasil (2014); Documentario “I love Kuduro”, Brasil (2013); participação como bailarina de Samba na propaganda KICK, na TV da Austrália (2013); exibição de vídeo no programa “Bounce” na TV de Angola, 2012; atriz na propaganda “Cricket ” na TV India, SPORT Channel, 2010; bailarina de dança indiana e dança urbana na UKTV, de BBC, Inglaterra (2009); bailarina “ Excuse Me Please” Filme por Govinda Produtor, Inglaterra (2008); bailarina “Not Going Out” na BBC1 TV, Avalon Produtora, Inglaterra (2008); bailarina “I-evolution” propaganda IPOD, Inglaterra (2007). Atualmente participa do Companhia de Dança Corpus Entre Mundos.<br>
+                    </div>
+                    <div class="tab-pane fade" id="especializacoes">
+                       Jazz, jazz lírico, street dance, dança contemporânea, ballet, teatro musical, sapateado, dança
+
+do ventre, dança indiana classica e bollywood, dança de salão com especialização em zouk e forro, afro-
+contemporâneo e dança afro da Angola, canto.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div ng-view></div>
+
+        </div>
+
+
+        <div class="col-lg-6">
+          <div class="">
+           <div class="retangulo1"></div> 
+           <div class="retangulo2"></div> 
+           <div class="retangulo3"></div> 
+
+
+
+
+            <div id="carousel-example-generic marisadentro" class="carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+              </ol>
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner">
+                <div class="item active">
+                  <img src="img/marisadentro.png" class="" alt="..." data-toggle="modal" data-target="#Allures45">
+                </div>
+                <div class="item">
+                  <img src="img/marisadentro2.png" class="" alt="..." data-toggle="modal" data-target="#Aerodyne43">
+                </div>
+                <div class="item">
+                  <img src="img/marisadentro3.png" class="" alt="..." data-toggle="modal" data-target="#Aerodyne47">
+                </div>
+              </div>
+
+              </a>
+            </div>
+
+
+
+           
+          </div>
+        </div>
+
+
+
+
+				
+			</div>
+		</div>
+	</div>
+</div>
+<div class="row hide">
+  <div class="mainads">
+    <div class="pull-left mainadborder">
+      <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+          <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+        </ol>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="img/img4.png" class="" alt="..." data-toggle="modal" data-target="#Allures45">
+          </div>
+        </div>
+        <!-- Controls -->
+        <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+        <div class="arrow-left">
+        </div>
+        </a>
+        <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+        <div class="arrow-right">
+        </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid pull-left">
+    
+  </div>
+</div>
+<img class="fundo" src="img/marisa.png">
+
+
+
+
+<div class="container">
+	<div class=""> 
+		
+
+		<!-- Modal -->
+		
+		
+	</div>
+</div>
+<div class="footer hide">
+  <div class="row">
+  <div class="container"> 
+    <div class="col-lg-6 col-md-12 tel">
+      <span class="address">Av Cobá 145-C M 9 SM 30 Cancún, Benito Juárez; C.P. 77533</span>
+    </div>
+    <div class="col-lg-6 col-md-12 tel">
+      <span class="call-today">Fale conosco: </span> <span class="tel-number"> 998 1 47 53 47</span><br>
+    </div>
+  </div>
+</div>
+</div>
+
+<script type="text/javascript" src="js/javascript.js"></script>
+
+</body>
+	
+</html>
+
